@@ -1,0 +1,11 @@
+[browser]
+gatherUsageStats = false
+serverAddress = "127.0.0.1"
+
+[server]
+# IPv4 loopback only (not LAN). Prefer http://127.0.0.1:8501 in Chrome —
+# "localhost" often resolves to IPv6 ::1 and will fail if nothing listens there.
+address = "127.0.0.1"
+port = 8501
+headless = true
+enableXsrfProtection = true

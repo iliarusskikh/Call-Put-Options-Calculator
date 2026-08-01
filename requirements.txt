@@ -1,0 +1,7 @@
+# Runtime dependencies (mirrors pyproject.toml). Prefer: uv sync
+numpy>=2.5.1
+pandas>=3.0.5
+plotly>=6.9.0
+pydantic>=2.13.4
+scipy>=1.15.0
+streamlit>=1.60.0
