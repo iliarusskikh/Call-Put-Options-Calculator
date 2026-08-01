@@ -214,5 +214,29 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Streamlit
+# Streamlit (keep config.toml tracked; ignore local secrets / email)
 .streamlit/secrets.toml
+.streamlit/credentials.toml
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Hatch / local build artifacts
+*.egg-info/
+.eggs/
+
+# Cursor / local agent noise
+.cursor/
+agent-transcripts/
